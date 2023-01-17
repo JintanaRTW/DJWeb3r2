@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="mt-4 p-5 bg-danger text-white rounded">
+  <h1>Welcome to Digitech </h1>
+        <p><b>Try to learn at least a new word every day, learn words that are specific</b>
+             to your niche. If you work in a bakery then try to become familiar with bakery terms,
+          focus on the words you need to know, don’t start a “I will finish the dictionary marathon
+          please. Focus on the words
+          that are most frequently used in day to day conversations.
+        </p>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="{% static 'image/5.jpg' %}" width="150px" height="150px"
+                 class="img-thumbnail">
+   </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="{% static 'image/8.jpg' %}" width="150px" height="150px"
+                 class="img-thumbnail">
+   </div>
+     <div class="row">
+         <div class="col-lg-4">
+             <img src="{% static 'image/7.jpg' %}" width="150px" height="150px"
+                  class="img-thumbnail">
+       </div>
+     </div>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+{% load static %}
+{% block content %}
+
+<h1 class="bg-warning text-Primary">Welcome to winter</h1>
+<h2 class="bg-info text-danger">
+    Happy New Year
+</h2>
+<p class="bg-secondary text-dark text-center">
+    <img src="{% static 'image/3.png' %}"
+    class="rounded-circle"width="150px" height="150px">
+
+อยากจะเจอเธอทุกวัน เพราะคิดถึงเธอทุกวัน
+อยากจะหยุดเวลาเอาไว้ที่ตรงนั้น ช่วงเวลาที่แสนดี ช่วงนาทีที่เรานั้นได้อยู่ใกล้ๆกัน
+เธอรู้ไหมฉันมีความสุข
+</p> <br>
+<p class="btn-success text-danger text-center">
+    <img src="{% static 'image/4.jpg' %}"
+    class="rounded-circle"width="150px" height="150px">
+  ขอให้โลกใบนี้ใจดีกับเเนนนะ
+- Robert Collier -
+American author
+</p>
+<br>
+<ul type="square" class="list-group">
+    <li class="list-group-item-primary">สิ่งที่สนใจ</li>
+    <li class="list-group-item">Game</li>
+    <li class="list-group-item" >Movie</li>
+    <li class="list-group-item">Song</li>
+    <li class="list-group-item">Sleeping</li>
+</ul> <br>
+<ol type="A" class="list-group">
+    <li class="list-group-item-primary">เว็บที่สนใจ</li>
+    <li class="list-group-item"><a href="http://facebook.com" target="_blank">facebook.com</a><li>
+    <li class="list-group-item">prthon.com</li>
+    <li class="list-group-item">w3shcool.com</li>
+    <li class="list-group-item">github.com</li>
+
+</ol>
+<a href="/firstpage"class="btn btn-success">Go to firstpage </a>
+{% endblock %}

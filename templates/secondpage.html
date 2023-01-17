@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+{% load static %}
+{% block content %}
+</head>
+<body bgcolor="#f5f5f5" text="#dc143c">
+    <H1>This Is Second Page</H1>
+    <h2>Girls' Generation : Forever 1</h2> <br>
+    <img src="{% static 'image/3.png'%}" width="500px" height="300px">
+    <p>
+        Forever one
+        We can go all the time
+We can move fast, then rewind
+When you put your body on mine
+And collide, collide
+It could be one of those nights
+Where we don't turn off the lights
+Wanna see your body on mine
+And collide, collide
+        <br>
+        <a href="/firspage">Go To First Page</a>
+        <br>
+        <a href="/thirdpage">Go To Third Page</a>
+
+    </p>
+
+    {% endblock %}
